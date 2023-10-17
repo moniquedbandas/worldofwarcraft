@@ -1,0 +1,110 @@
+/*
+seletores de elementos -> especificam como a tag sera exibida
+seletores de classes -> pode possuir qqr nome e pode ser aplicado a diversos elementos diferentes
+seletores de ID -> aplicado a qqr tag do html, mas somente a um elemento da pagina 
+Propriedades para fontes:
+color -> cor 
+font-family -> tipo 
+font-size -> tamanho
+font-style -> estilo 
+font-variant -> fonte maiscula de menor altura
+font-weight -> quanto mais escura a fonte é
+font -> abreviação
+*/
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 0.9em;
+    background: url(/src/imagens/wowLegion.jpg) center fixed;
+}
+
+header {
+    text-align: center;
+}
+
+.logoTop {
+    position: fixed;
+    top: -10px;
+    right: 10px;
+    width: 120px;
+    height: 100px;
+    background: url(/src/imagens/wowhead.png) top right;
+    background-size: cover;
+    z-index: 1000;
+}
+
+.wowzinho span {
+    /* text-align: center; */
+    font-variant: small-caps;
+    background-color: rgba(244, 165, 96, 0.842);
+    text-decoration: overline;
+}
+
+.wowExplicacao span {
+    background-color: rgba(245, 153, 33, 0.678);
+    margin: 5px;
+}
+
+nav {
+    border-style: double;
+    background-color: rgba(211, 211, 211, 0.774);
+    border-color: antiquewhite;
+    margin: 5px;
+    /* text-align: left;  */
+}
+
+.listinha {
+    list-style-type: lower-alpha;
+    /* display: inline; */
+}
+
+/* .logoNav{
+    position: fixed;
+    top: 80px;
+    right: 70px;
+    width: 100px; 
+    height: 100px; 
+    background: url(/src/imagens/dog-nose.png) right;
+    background-size: cover; 
+    z-index: 1000;
+} */
+.tituloArtigo {
+    /* text-align: center; */
+    text-shadow: 2px 2px 1px rgba(244, 165, 96, 0.596);
+    font-variant: small-caps;
+    padding-bottom: 20px;
+}
+
+.ListaDG,
+.ListaBoss {
+    list-style-type: square;
+    color: rgb(13, 44, 185);
+    font-variant: small-caps;
+    /* background-color: rgba(216, 191, 216, 0.815); */
+}
+
+section {
+    border-style: dashed;
+    border-color: tan;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.226);
+}
+
+article {
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(220, 215, 250, 0.664);
+}
+
+
+footer {
+    padding: 10px;
+    margin: 5px;
+    color: rgba(184, 104, 13, 0.719);
+    /* background-color: rgba(0, 0, 0, 0.692); */
+}
+
+.direitos {
+    text-align: center;
+}
