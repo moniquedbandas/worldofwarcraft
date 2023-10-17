@@ -7,7 +7,8 @@
     <footer> especifica um rodapé
     <nav> define um conjunto de links de navegação
     <aside> conteudo que é colocado tipo como uma barra lateral
- -->
+        # -> serve pra indicar q é um possivel link dentro do arquivo html
+-->
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -22,7 +23,6 @@
 </head>
 
 <body>
-
     <header>
         <h1 class="wowzinho"><span>World of warcraft</span></h1>
     </header>
@@ -73,7 +73,7 @@
             </ul>
             </p>
         </article>
-        <article>
+        <article class="art1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A veniam vero accusantium, quam assumenda atque
             fugiat vel provident perspiciatis! Eos ut facere praesentium quia aperiam temporibus saepe, architecto
             explicabo minima.
@@ -88,27 +88,23 @@
             fugiat vel provident perspiciatis! Eos ut facere praesentium quia aperiam temporibus saepe, architecto
             explicabo minima.
         </article>
-        <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A veniam vero accusantium, quam assumenda atque
-            fugiat vel provident perspiciatis! Eos ut facere praesentium quia aperiam temporibus saepe, architecto
-            explicabo minima.
-        </article>
-        <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A veniam vero accusantium, quam assumenda atque
-            fugiat vel provident perspiciatis! Eos ut facere praesentium quia aperiam temporibus saepe, architecto
-            explicabo minima.
-        </article>
-        <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A veniam vero accusantium, quam assumenda atque
-            fugiat vel provident perspiciatis! Eos ut facere praesentium quia aperiam temporibus saepe, architecto
-            explicabo minima.
-        </article>
-        <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A veniam vero accusantium, quam assumenda atque
-            fugiat vel provident perspiciatis! Eos ut facere praesentium quia aperiam temporibus saepe, architecto
-            explicabo minima.
-        </article>
+        
     </section>
+    
+    <div class="menuClasses">
+    <h2 class="tituloMenuClasses">~~~Menuzinho para ver as classes do wow~~~</h2>
+    <ul class="listaClasses">
+        <li class="menuLI"><a class="menu" href="#Raças">Raças</a></li>
+        <li class="dropdown"><a class="droptbn" href="javascript:void(0)">Classes</a> 
+        <div class="dropdown-content">
+            <a href="#">Rogue</a>
+            <a href="#">Priest</a>
+            <a href="#">Druid</a>
+        </div>
+        </li>
+        <li class="menuLI"><a class="menu" href="#Guildas">Guildas</a></li>
+    </ul>
+    </div>
 
     <footer>
         <section class="campoFaleConosco">
@@ -118,7 +114,7 @@
                 <li><a href="mailto:moniquedbandas@gmail.com?cc=xxhereistandxx@hotmail.com">E-mail</a></li>
             </ul>
         </section>
-        <p class="direitos">&copy;2023 Wowhead. All rights reserved</p>
+        <p class="direitos"><b>&copy;2023 Wowhead. All rights reserved</b></p>
     </footer>
 
 </body>
