@@ -12,13 +12,15 @@ font-weight -> quanto mais escura a fonte é
 font -> abreviação
 */
 body {
-    font-family: Verdana, sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 0.9em;
     background: url(/src/imagens/wowLegion.jpg) center fixed;
 }
+
 header {
     text-align: center;
 }
+
 .logoTop {
     position: fixed;
     top: -1em;
@@ -29,6 +31,7 @@ header {
     background-size: cover;
     z-index: 1000;
 }
+
 .wowzinho span {
     /* text-align: center; */
     font-variant: small-caps;
@@ -53,6 +56,7 @@ nav {
     list-style-type: lower-alpha;
     /* display: flex; */
 }
+
 /* .wrapper{
     display: flex; 
     width: 100%;
@@ -86,6 +90,7 @@ nav {
     font-variant: small-caps;
     /* background-color: rgba(216, 191, 216, 0.815); */
 }
+
 section {
     border-style: dashed;
     border-color: tan;
@@ -93,61 +98,118 @@ section {
     padding: 10px;
     background-color: rgba(211, 211, 211, 0.226);
 }
+
 article {
     margin: 5px;
     padding: 40px;
     background-color: rgba(220, 215, 250, 0.664);
 }
-.art1{
+
+.art1 {
     background-color: aquamarine;
     color: antiquewhite;
     padding: 25px;
     text-align: center;
-    
+
 }
-.art1:hover{
+
+.art1:hover {
     background-color: brown;
 }
 
-.menuClasses{
+.tituloFlex {
+    margin: 00.5rem;
+    color: aquamarine;
+}
+
+.specPriest {
+    margin: 0.5rem;
+    height: 15rem;
+    /* width: 50rem; */
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.itens {
+    padding: 1em;
+    flex-grow: 1;
+}
+
+.itens:hover {
+    background-color: rgba(255, 228, 196, 0.521);
+    color: black;
+}
+
+.Box-1 {
+    background-color: violet;
+    flex-grow: 5;
+}
+
+.Box-2 {
+    background-color: tomato;
+}
+
+.Box-3 {
+    background-color: brown;
+}
+
+.Box-4 {
+    background-color: chartreuse;
+}
+
+.Box-5 {
+    background-color: slateblue;
+}
+
+.menuClasses {
     background-color: rgba(220, 215, 250, 0.664);
     border-style: double;
     margin: 5px;
     padding: 10px;
 }
+
 /* .tituloMenuClasses{
     text-align: center;
     font-variant: small-caps;
 } */
-.listaClasses{
+.listaClasses {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 250px;
     overflow: hidden;
-    /* border-style: solid; */
-    background-color: rgba(8, 96, 138, 0.473);    
+    background-color: rgba(8, 96, 138, 0.473);
 }
-.menuLI{
-    float:left;
-    }
-.menu, .dropbtn {
-    display: inline-block;    
+
+.menuLI {
+    float: left;
+}
+
+.menu,
+.dropbtn {
+    display: inline-block;
     color: rgb(4, 30, 102);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /*  */
 }
-.menu:hover, .dropdown:hover .dropbtn{
+
+.menu:hover,
+.dropdown:hover .dropbtn {
     background-color: rgba(218, 173, 157, 0.603);
     color: black;
 }
+
 .dropdown {
     display: inline-block;
     text-align: center;
 }
-.dropdown-content{
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: rgba(211, 128, 20, 0.904);
@@ -155,17 +217,20 @@ article {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-.dropdown-content a{
+
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
-.dropdown-content a:hover{
+
+.dropdown-content a:hover {
     background-color: turquoise;
 }
-.dropdown:hover .dropdown-content{
+
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
@@ -175,10 +240,12 @@ footer {
     color: rgba(184, 104, 13, 0.719);
     background-color: rgba(236, 226, 226, 0.13);
 }
-.campoFaleConosco{
+
+.campoFaleConosco {
     background-color: rgba(250, 235, 215, 0.712);
 }
+
 .direitos {
     text-align: center;
-    color: black;    
+    color: black;
 }
